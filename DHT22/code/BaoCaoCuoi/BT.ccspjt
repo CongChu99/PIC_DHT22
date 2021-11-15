@@ -1,0 +1,23 @@
+[PROJECT]
+Target=BT.hex
+Processor_Text=PIC16F877A
+CCSVerions=5.015
+Compiler=PCM
+CCSVersion=5.015
+[Target Data]
+FileList=BT.c
+[Directories]
+Include=C:\Program Files (x86)\PICC\Devices\;C:\Program Files (x86)\PICC\Drivers\
+[D:\nam5\thiet ke do luuong\BaoCaoCuoi\BT]
+Type=4
+[mru-list]
+1=BT.c
+[Opened Files]
+1=BT.c
+2=
+3=
+[BT.c]
+Type=4
+[Units]
+Count=1
+1=BT (main)

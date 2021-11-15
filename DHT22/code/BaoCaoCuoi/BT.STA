@@ -1,0 +1,71 @@
+
+ROM used:   2355/8192 (29%)
+            3375/8192 (41%) including unused fragments
+
+            1.6 Average locations per line
+            6.2 Average locations per statement
+
+RAM used:   110/368 (30%) at main() level
+            121/368 (33%) worst case
+
+Stack used: 6 worst case (6 in main + 0 for interrupts)
+Stack size: 8
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  390   293  78  BT.c
+  671     0   0  C:\Program Files (x86)\PICC\Devices\16F877A.h
+  456    84  22  C:\Program Files (x86)\PICC\Drivers\lcd.c
+----- -----
+ 1517   377 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     20   1    1             @delay_ms1
+ Inline         3   596  5.9  lcd_read_byte
+0      6   0    0    59  4.2  lcd_read_nibble
+0     19   1    1   179  3.3  lcd_send_nibble
+0     82   3    3   460  4.7  lcd_send_byte
+0     76   3    6   814  7.2  lcd_init
+0     20   1    4   208  6.3  lcd_gotoxy
+0     58   2    1   354  4.7  lcd_putc
+0     20   1    1   138  3.8  nut
+ Inline         0   108  1.7  start_signal
+ Inline         0   106  2.5  check_response
+0     84   4    4   561  7.6  Read_Data
+0    394  17    2  1988  7.8  DHT22
+0      5   0    0             @const691
+0    116   5    4             @PSTRINGC7_647
+0     39   2    5             @DIV1616
+0     29   1    2             @PSTRINGR_647
+0      8   0    0             @const697
+0      6   0    0             @const698
+0      8   0    0             @const699
+1   1318  56    2  8286 11.4  MAIN
+0      4   0    0             @const703
+0     30   1    2             @PSTRINGR_1
+1      9   0    0             @goto11205
+ Inline         0             @cinit1
+
+Program metrics:
+    Functions               13
+    Statements              377
+    Comments                275
+    Volume (V)              18775
+    Difficulty (D)          68.8
+    Effort to implement (E) 1292257
+    Time to implement (T)   19 hours, 57 minutes
+    Est Delivered Bugs (B)  4
+    Cyclomatic Complexity   57
+    Maintainability (MI)    115
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00003     4  0  
+00004-007FF  1024  1020  
+00800-00FFF  1327  721  
+01000-017FF     0  2048  
+01800-01FFF     0  2048  
+
+
+
